@@ -1,9 +1,5 @@
 # ImportJSON
 
-[![Otechie](https://api.otechie.com/consultant/bradjasper/badge.svg)](https://otechie.com/bradjasper)
-
-**Looking for help?** For $100/hr I'll help with your ImportJSON problem, integrating it into your project. Email bjasper@gmail.com to get started!
-
 Import JSON from any URL directly into your Google Sheets. `ImportJSON.gs` adds an `=ImportJSON()` function to your spreadsheet, allowing quick and easy JSON importing. To use go to `Tools` > `Script Editor` and add the `ImportJSON.gs` file. Now in your spreadsheet you can access the `ImportJSON()` function. Use it like this:
 
     =ImportJSON("https://mysafeinfo.com/api/data?list=bestnovels&format=json&rows=20&alias=cnt=count,avg=average_rank,tt=title,au=author,yr=year", "/title")
@@ -38,6 +34,3 @@ This code base used to be hosted at http://blog.fastfedora.com/projects/import-j
 
 ## Alternatives
 Some of this if possible internally with Google App Scripts External APIs, like UrlFetch: https://developers.google.com/apps-script/guides/services/external
-
-These require a Google account and an explicit permission, but in some cases may be a good fit.
-
